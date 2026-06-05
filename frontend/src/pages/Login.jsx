@@ -68,7 +68,7 @@ export default function Login() {
                 value={password}
                 onChange={e => setPassword(e.target.value)}
                 required
-                className="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-gray-500"
+                className="w-full border border-gray-200 rounded-xl px-4 py-2.5 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-gray-500 [&::-ms-reveal]:hidden [&::-ms-clear]:hidden"
                 placeholder="Masukkan Password"
             />
             <button

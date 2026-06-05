@@ -84,7 +84,7 @@ export default function Register() {
                 value={form.password}
                 onChange={change}
                 required
-                className={`w-full border rounded-xl px-4 py-2.5 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-gray-500 ${errors.password ? 'border-red-400' : 'border-gray-200'}`}
+                className={`w-full border rounded-xl px-4 py-2.5 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-gray-500 [&::-ms-reveal]:hidden [&::-ms-clear]:hidden ${errors.password ? 'border-red-400' : 'border-gray-200'}`}
                 placeholder="Min. 8 karakter"
                 />
                 <button
@@ -107,7 +107,7 @@ export default function Register() {
                 value={form.password_confirmation}
                 onChange={change}
                 required
-                className={`w-full border rounded-xl px-4 py-2.5 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-gray-500 ${errors.password_confirmation ? 'border-red-400' : 'border-gray-200'}`}
+                className={`w-full border rounded-xl px-4 py-2.5 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-gray-500 [&::-ms-reveal]:hidden [&::-ms-clear]:hidden ${errors.password_confirmation ? 'border-red-400' : 'border-gray-200'}`}
                 placeholder="Ulangi password"
                 />
                 <button

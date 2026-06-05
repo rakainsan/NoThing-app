@@ -20,3 +20,8 @@
   background: #d1d1d1;
   border-radius: 10px;
 }
+
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-strong-password-auto-fill-button {
+  display: none !important;
+}
